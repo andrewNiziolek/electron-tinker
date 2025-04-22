@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Electron Tester - Dashboard</title>
+  <link rel="stylesheet" href="visual/dashboard.css" />
+</head>
+<body>
+  <div style="font-family: sans-serif; padding: 2rem;">
+    <h2>Welcome to the Dashboard</h2>
+    <p><strong>Auth Token:</strong> <span id="token"></span></p>
+
+    <h3>Recent Activity</h3>
+    <ul style="line-height: 1.6;">
+      <li>🗂 Project A – Updated 2 minutes ago</li>
+      <li>✅ Task Completed – "Fix login bug"</li>
+      <li>📅 Meeting scheduled for tomorrow</li>
+    </ul>
+
+    <button id="logoutBtn" style="margin-top: 1rem; padding: 0.5rem 1rem;">Log Out</button>
+  </div>
+
+  <script src="../src/renderer/dashboard.js"></script>
+</body>
+</html>
